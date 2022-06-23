@@ -101,7 +101,7 @@ dependencies = [
 [[package]]
 name = "tokio"
 version = "1.19.2"
-source = "git+https://github.com/rjzak/tokio?branch=wasi_wip#40cf5830d8e0928ed11ffc91729b6d3663aef7ac"
+source = "git+https://github.com/haraldh/tokio/?branch=wasi_tokio#f4fec5e5276c528e4944652eed1cc8e535d287fd"
 dependencies = [
  "bytes",
  "libc",
@@ -124,7 +124,7 @@ dependencies = [
 [[package]]
 name = "tokio-macros"
 version = "1.8.0"
-source = "git+https://github.com/rjzak/tokio?branch=wasi_wip#40cf5830d8e0928ed11ffc91729b6d3663aef7ac"
+source = "git+https://github.com/haraldh/tokio/?branch=wasi_tokio#f4fec5e5276c528e4944652eed1cc8e535d287fd"
 dependencies = [
  "proc-macro2",
  "quote",
